@@ -11,4 +11,9 @@ public class DemoController{
         return "Hello World!";
     }
 
+    @RequestMapping("/sampled")
+    public String getStringAll(){
+        return "Hello World!";
+    }
+
 }
